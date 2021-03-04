@@ -1,14 +1,190 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta charset="utf-8">
     <title> Ultilizando o Framework Bootstrap</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+   
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <link rel="icon" href="images/btc.png">
 </head>
-<body>
-    testando
+<body id="main">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="navbar-brand" href="#">
+                    <img class="img-bitcoin"src="images/btc.png" alt="" width="55"><span class="span-bitcoin">itcoins</span>
+                </a>
+            </li>
+        </ul>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#section-noticias"> Notícias</a>
+            </li>           
+            <li class="nav-item">
+                <a class="nav-link" href="#main"> Quem somos</a>
+            </li>           
+            <li class="nav-item">
+                <a class="nav-link" href="login.html"> Login</a>
+            </li>           
+        </ul>
+    </nav>
+    
+    <div class="espaco" style="background: rgba(240, 219, 207, 0.26);"></div>
+ 
+    <section id="section-main">
+        <div class="container-fluid section-main bg-light">
+            <h3 class="text-warning">Seja Bem-vindo!</h3>
+            <h6> Somos a maior empresa de mineração de Criptomoedas espalhada em mais de 20 países </h6>
+            <img src="images/bitcoin-mineracao-lucrativa.png" alt="=Imagem relacionada a mineração de Criptomoedas" width="600"> 
+        </div>
+        
+    </section>
+
+    <div class="espaco" style="background: rgba(240, 219, 207, 0.26);"></div>
+    <hr style="background: rgba(240, 219, 207, 0.26);">
+
+    <section id="section-noticias">
+        <div style="height: 100px;"></div>
+        <div class="container">
+            <div class="row">
+              <div class="col-sm-4">
+                <h3>Criptomoedas</h3>
+                <img  class="rounded-circle"  src="images/criptomoedas-0.jpg" alt="Imagem relacionada as criptomoedas" width="300" height="270">
+              </div>
+              <div class=" container col-sm-8">
+                <h4>Moedas digitais: entenda como funcionam as criptomoedas e como investir</h4>
+                  <p>
+                    As moedas digitais ganharam popularidade ao longo dos anos. Quem acompanha o mercado, mesmo que de longe, certamente já foi surpreendido pelos altos e baixos dessas moedas no noticiário. A mais famosa é o Bitcoin, mas muitas outras também já têm relevância – e também a simpatia dos investidores. Mas afinal, o que é uma criptomoeda? Como funcionam esses ativos e como negociá-los?
+                  </p>
+                  <p>
+                    Vamos te apresentar um guia para quem quer dar os primeiros passos no mundo das moedas digitais e precisa saber por onde começar. É uma classe de ativos nova no mercado e, justamente por isso, desperta muitas dúvidas em quem ainda está aprendendo.
+                  </p>
+
+                <h4>O que são criptomoedas?</h4>
+                  <p>
+                    Genericamente, uma criptomoeda é um tipo de dinheiro – como outras moedas com as quais convivemos cotidianamente – com a diferença de ser totalmente digital. Além disso, ela não é emitida por nenhum governo (como é o caso do real ou do dólar, por exemplo).
+                  </p>
+                  <p>
+                    Embora o Bitcoin seja a moeda digital mais conhecida, o conceito de criptomoeda é anterior a ele. Segundo o site Bitcoin.org, mantido pela comunidade ligada ao Bitcoin, as criptomoedas foram descritas pela primeira vez em 1998 por Wei Dai, que sugeriu usar a criptografia para controlar a emissão e as transações realizadas com um novo tipo de dinheiro. Isso dispensaria a necessidade da existência de uma autoridade central, como acontece com as moedas convencionais.
+                  </p>
+              </div>
+            </div>
+        </div>
+
+        <hr style="background: rgb(139, 135, 135);">
+
+        <div class="container mt-5">
+            <div class="row">
+              <div class="col-sm-4">
+                <h3>Bitcoins</h3>
+                <img  class="rounded-circle"  src="images/criptomoedas-2.jpg" alt="Imagem relacionada as criptomoedas" width="300" height="270">
+              </div>
+              <div class=" container col-sm-8">
+                <h4>Bitcoin volta aos US$ 50 mil após banco dos EUA retomar negociações</h4>
+                  <p>
+                    O bitcoin (BTC) retomou sua força após as sucessivas quedas da última semana. Nesta quarta-feira (03), a criptomoeda recuperou o patamar de US$ 50 mil em meio a relatos de que o Goldman Sachs, um dos principais bancos e gestores de investimentos dos Estados Unidos, está voltando a negociar o ativo digital.
+                  </p>
+               
+
+                <h4>Bitcoin ultrapassa os US$ 52 mil</h4>
+                  <p>
+                    Após fortes valorizações nos últimos dias, o bitcoin chegou a valer hoje US$ 52.636, conforma aponta o índice CoinDesk, seu preço mais alto desde 22 de fevereiro. Naquele dia, a moeda digital começou a despencar em meio a vendas em massa, correções de mercado e declarações de múltiplas figuras públicas, como Elon Musk, Janet Yellen e Bill Gates, contra o criptoativo.
+                  </p>
+                  <p>
+                    Porém, nesta última segunda-feira (01), a Reuters publicou informações exclusivas revelando que o banco americano Goldman Sachs está retomando negociações de contratos futuros de bitcoin e investimentos derivados. Para investidores institucionais, essa forma de aplicação em ativos digitais é mais segura e procurada em um momento de muitas incertezas sobre a criptomoeda.
+                  </p>
+              </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+<footer class="bg- text-center text-white">
+    <!-- Grid container -->
+    <div class="container pt-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#" role="button"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+  
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#" role="button"
+          ><i class="fab fa-twitter"></i
+        ></a>
+  
+        <!-- Google -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#" role="button"
+          ><i class="fab fa-google"></i
+        ></a>
+  
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#" role="button"
+          ><i class="fab fa-instagram"></i
+        ></a>
+  
+        <!-- Linkedin -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/jhonatan-pinheiro-96674316b/" target="_brank" role="button"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+  
+        <!-- Github -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/JhonatanPinheiro" target="_brank" role="button"
+          ><i class="fab fa-github"></i
+        ></a>
+      </section>
+  
+      <!-- Section: Form -->
+      <section class="">
+        <form action="">
+          <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+            <!--Grid column-->
+            <div class="col-auto">
+              <p class="pt-2">
+                <strong>Email</strong>
+              </p>
+            </div>
+  
+            <!--Grid column-->
+            <div class="col-md-5 col-12">
+              <!-- Email input -->
+              <div class="form-outline form-white mb-4">
+                <input type="email" id="form5Example2" class="form-control" />
+                <label class="form-label" for="form5Example2">Entraremos em contato com você! </label>
+              </div>
+            </div>
+  
+            <!--Grid column-->
+            <div class="col-auto">
+              <!-- Submit button -->
+              <button type="submit" class="btn btn-outline-light mb-4">
+                Enviar
+              </button>
+            </div>
+            <!--Grid column-->
+        </div>
+          <!--Grid row-->
+        </form>
+      </section>
+      <!-- Section: Form -->
+    </div>
+    <hr>
+    <!-- Copyright -->
+    <div class="text-center p-3 bg-">
+      © 2021 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/"></a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+    <script
+    src="https://use.fontawesome.com/releases/v5.15.2/js/all.js"
+    data-auto-a11y="true"
+  ></script>
 </body>
 </html>
